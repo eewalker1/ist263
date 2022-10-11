@@ -1,0 +1,8 @@
+body{
+    background-image: url("../images/usa-today-8359427.0.jpg")
+}
+p{
+    background-color: #0000ff;
+    border: 2px solid #fc8c03;
+    padding: 10px;
+}

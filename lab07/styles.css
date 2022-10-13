@@ -5,10 +5,10 @@ nav {
     padding: 10px;
 }
 nav {
-    background-color: •	#FF0000;
+    background-color:#D3D3D3;
 }
 nav a {
-    color: #391D8C;
+    color: #6705A5;
 }
 nav a:hover {
     background-color: #BCCEF8;
@@ -17,6 +17,9 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif
    }
    
+body {
+    color: #331800;
+}
 body{
     background-color:#ECECEC; 
 }
@@ -24,6 +27,9 @@ body{
        color: cornflowerblue;
    }
    
+p a{
+    color:#568f56;
+}
    .evenrow {
        background-color: darkgrey;
    }

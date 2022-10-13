@@ -17,6 +17,9 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif
    }
    
+body{
+    background-color:#ECECEC; 
+}
    h1, h2 {
        color: cornflowerblue;
    }

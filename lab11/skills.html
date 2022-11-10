@@ -42,6 +42,19 @@ h2 {color:#ffff;}
     padding: 10%;}
 .skills1 {flex: 0.75;}
 .skills2 {flex: 0.25;}
+
+#skip {
+background-color: #ffa500;
+border: 1px solid #000000; 
+padding: 2px; 
+position: absolute;  /* out of page flow for layout */
+left: -999px;
+}
+#skip:focus {
+left: 10px;
+top: 30px;
+}
+
 @media only screen and (max-width: 600px) {
 nav a {
     width: 100%;
@@ -54,13 +67,14 @@ nav a {
 
 <body>
 <nav>
-<a href="index.html">Home</a> <span class="pipe">|</span>
-<a href="skills.html">Skills</a> <span class="pipe">|</span>
-<a href="contact.html">Contact</a> 
+<a id="skip" tabindex="1" href="#content">Skip to Content</a>
+<a href="index.html" tabindex="2">Home</a><span class="pipe">|</span>
+<a href="skills.html" tabindex="3">Skills</a><span class="pipe">|</span>
+<a href="contact.html" tabindex="4">Contact</a> 
 </nav>
 
 <h1>Technical Skills</h1>
-<p>
+<p id="content">
 I have started to gain skills in various coding languages and frameworks. Below are my core skills.
 </p>
 

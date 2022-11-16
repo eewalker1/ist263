@@ -6,8 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <style>
-nav {margin-bottom: 30px;}
-nav {padding: 10px;}
+.logo {width: 200px;}
+header *{
+display: inline;
+}
+header{
+display: flex;
+align-items: center;
+}
+nav{
+margin-left: 45px;
+font-size: large;
+}
+
 nav a {color: black;}
 nav a:hover {background-color: #FDA4BA;}
 body {font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif}
@@ -36,13 +47,15 @@ nav a {
     </style>
 </head>
 <body>
-<nav>
-<a id="skip" tabindex="1" href="#content">Skip to Content</a>
-<a href="home.html" tabindex="2">Home</a><span class="pipe">|</span>
-<a href="products.html" tabindex="3">Products</a><span class="pipe">|</span>
-<a href="about.html" tabindex="4">About</a>
-</nav>
-
+<header>  
+    <img class="logo" src="../images/SIX-34A2D382-F0BC-4583-AD3D-5C2E6048901A.PNG" alt="Logo">
+    <nav>
+    <a id="skip" tabindex="1" href="#content">Skip to Content</a>
+    <a href="home.html" tabindex="2">Home</a><span class="pipe">|</span>
+    <a href="products.html" tabindex="3">Products</a><span class="pipe">|</span>
+    <a href="about.html" tabindex="4">About</a>
+    </nav>
+</header> 
 <div>
     <div>
     <img class="portrait" src="../images/project_images/gabby_photo.jpg" alt="Portrait">

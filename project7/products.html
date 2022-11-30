@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+.logo {width: 200px;}
+header *{
+display: inline;
+}
+header{
+display: flex;
+align-items: center;
+}
+nav{
+margin-left: 45px;
+font-size: large;
+}
+
+nav a {color: black;}
+nav a:hover {background-color: #FDA4BA;}
+body {font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif}
+body {background-color: #FFDBE9;}
+h1 {color: #B90E0A; text-align: center;}
+a,p {color: #000000;}
+p{text-align: center;}
+
+img { 
+    width: 100%;
+    height: 100%; 
+    object-fit: contain;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+.row ::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#skip {
+background-color: #bbbbbb;
+border: 1px solid black; 
+padding: 2px; 
+position: absolute;
+left: -999px;
+}
+#skip:focus {left: 10px; top: 30px;}
+
+@media only screen and (max-width: 600px) {
+nav a {
+    width: 100%;
+    display: block;}
+    .pipe{display: none;}
+}
+@media only screen and (min-width: 601px) {}
+    </style>
+</head>
+<body>
+<header>  
+    <img class="logo" src="../images/SIX-34A2D382-F0BC-4583-AD3D-5C2E6048901A.PNG" alt="Logo">
+    <nav>
+    <a id="skip" tabindex="1" href="#content">Skip to Content</a>
+    <a href="home.html" tabindex="2">Home</a><span class="pipe">|</span>
+    <a href="products.html" tabindex="3">Products</a><span class="pipe">|</span>
+    <a href="about.html" tabindex="4">About</a>
+    </nav>
+</header> 
+
+<h1>Gabby's Collection</h1>
+<p id="content">A look into each individual handmade jewelry piece</p>
+
+<div class="row">
+    <div class="column">
+        <img src="../images/project_images/bluebead1.JPG" alt="Blue1">
+        <img src="../images/project_images/bluebead2.JPG" alt="Blue2">
+    </div>
+<!--<img src="../images/project_images/daisybead.JPG" alt="Daisy">-->
+    <div class="column">
+    <img src="../images/project_images/greenbead.JPG" alt="Green">
+    </div> 
+    <div class="column">
+    <img src="../images/project_images/cross2.JPG" alt="Cross1">
+    </div>
+    <div class="column">
+    <img src="../images/project_images/pearl2.JPG" alt="Pearl2">
+    <img src="../images/project_images/pearl3.JPG" alt="Pearl3">
+    </div>
+    <div class="column">
+    <img src="../images/project_images/silverheart2.JPG" alt="Silver2">
+    <img src="../images/project_images/silverheart3.JPG" alt="Silver3">
+    </div>
+</div>
+
+<footer>
+    <hr>
+    &#169;2022
+</footer>
+</body>
+</html>

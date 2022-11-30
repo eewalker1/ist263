@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+.logo {width: 200px;}
+header *{
+display: inline;
+}
+header{
+display: flex;
+align-items: center;
+}
+nav{
+margin-left: 45px;
+font-size: large;
+}
+
+nav a {color: black;}
+nav a:hover {background-color: #FDA4BA;}
+body {font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif}
+body {background-color: #FFDBE9;}
+h1 {color: #B90E0A; text-align: center;}
+p {text-align: center;}
+
+
+a, p {color: #000000;}
+#skip {
+background-color: #bbbbbb;
+border: 1px solid black; 
+padding: 2px; 
+position: absolute;
+left: -999px;
+}
+#skip:focus {left: 10px; top: 30px;}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+nav a {
+    width: 100%;
+    display: block;}
+    .pipe{display: none;}
+}
+@media only screen and (min-width: 601px) {}
+    </style>
+</head>
+<body>
+<header>  
+    <img class="logo" src="../images/SIX-34A2D382-F0BC-4583-AD3D-5C2E6048901A.PNG" alt="Logo">
+    <nav>
+    <a id="skip" tabindex="1" href="#content">Skip to Content</a>
+    <a href="home.html" tabindex="2">Home</a><span class="pipe">|</span>
+    <a href="products.html" tabindex="3">Products</a><span class="pipe">|</span>
+    <a href="about.html" tabindex="4">About</a>
+    </nav>
+</header> 
+
+<h1>New Arrivals</h1>
+<p id="content">description and tagline, subheader of what we do/offer ("gallery")</p>
+
+<div>
+    <div>
+    <img src="../images/project_images/pearl1.jpg" alt="Pearl1">
+    <img src="../images/project_images/silverheart1.jpg" alt="Silver1">
+    <img src="../images/project_images/cross1.jpg" alt="Cross1">
+    </div>
+<div>
+
+<footer>
+    <hr>
+    &#169;2022
+</footer>
+</body>
+</html>

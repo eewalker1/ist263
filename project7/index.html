@@ -29,7 +29,7 @@ nav a:link  {text-decoration: none;}
 nav a:visited {text-decoration: none;}
 nav a:active {text-decoration: none;}
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
-body {font-family: 'Comfortaa', cursive;}
+body {font-family: 'Comfortaa', cursive; align-items: center;}
 /*body {font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif}*/
 body {background-color: #FFDBE9;}
 h1 {color: #B90E0A; text-align: center;}
@@ -46,9 +46,9 @@ left: -999px;
 }
 #skip:focus {left: 10px; top: 30px;}
 
-#bannerdesc{margin-left:200px;margin-right:200px; justify-content: center;}
+#bannerdesc{align-items: center; justify-content: center;}
 
-#pearl1{margin-left: 425px; max-width: 55%;}
+.pearl1{ display: block; max-width: 55%; margin-left: auto; margin-right: auto; }
 
 
 .indeximg {
@@ -65,6 +65,7 @@ left: -999px;
     padding: 10px;
     margin:auto;
     width: 50%;   
+    align-items: center;
 }
 
 .column2{
@@ -74,9 +75,10 @@ left: -999px;
     padding: 10px;
     margin:auto;
     width: 50%;
+    align-items: center;
    
 }
-#subimage{max-width: 60%; margin-left:200px;}
+#subimage{max-width: 60%;}
 
 @media only screen and (max-width: 600px) {
     
@@ -102,7 +104,7 @@ nav a {
 <h1>❤️ Welcome to Jewelry by Gabby ❤️</h1>
 <p id="content">description and tagline, subheader of what we do/offer ("gallery")</p>
 
-<img src="../images/project_images/pearl1.jpg" alt="Pearl1" id="pearl1"><br>
+<img src="../images/project_images/pearl1.jpg" alt="Pearl1" class="pearl1"><br>
 <p id="bannerdesc">Gabby's necklaces have become a fan favorite! Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque optio quaerat eligendi voluptatum dolor, excepturi nesciunt distinctio sint eaque et, doloribus beatae consectetur velit illum nostrum? Natus dolorem cum mollitia.</p>
 <br>
 <br>

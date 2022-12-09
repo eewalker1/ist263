@@ -46,18 +46,40 @@ left: -999px;
 }
 #skip:focus {left: 10px; top: 30px;}
 
-img {
-    max-width: 100%;
-    height: auto;
-    padding: 3px;
-}
+#bannerdesc{margin-left:200px;margin-right:200px; justify-content: center;}
+
+#pearl1{margin-left: 425px; max-width: 55%;}
+
 
 .indeximg {
     display: flex;
     justify-content: space-around;
+    margin: 15px;
+    flex-direction: row;
 }
 
+.column1{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    margin:auto;
+    width: 50%;   
+}
+
+.column2{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    margin:auto;
+    width: 50%;
+   
+}
+#subimage{max-width: 60%; margin-left:200px;}
+
 @media only screen and (max-width: 600px) {
+    
 nav a {
     width: 100%;
     display: block;}
@@ -77,18 +99,25 @@ nav a {
     </nav>
 </header> 
 
-<h1>New Arrivals</h1>
+<h1>❤️ Welcome to Jewelry by Gabby ❤️</h1>
 <p id="content">description and tagline, subheader of what we do/offer ("gallery")</p>
 
-<img src="../images/project_images/pearl1.jpg" alt="Pearl1"><br>
-<p>Gabby's necklaces have become a fan favorite!</p>
-
-<div>
-    <div class="indeximg">
-    <img src="../images/project_images/silverheart1.jpg" alt="Silver1">
-    <img src="../images/project_images/cross1.jpg" alt="Cross1">
+<img src="../images/project_images/pearl1.jpg" alt="Pearl1" id="pearl1"><br>
+<p id="bannerdesc">Gabby's necklaces have become a fan favorite! Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque optio quaerat eligendi voluptatum dolor, excepturi nesciunt distinctio sint eaque et, doloribus beatae consectetur velit illum nostrum? Natus dolorem cum mollitia.</p>
+<br>
+<br>
+<br>
+<div class="indeximg">
+    <div class="column1">
+        <img src="../images/project_images/silverheart1.jpg" alt="Silver1" id="subimage">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, odio sit at, quia enim temporibus molestiae, blanditiis dolor magni odit eaque suscipit neque quam voluptates totam ducimus eos assumenda inventore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quia, aut expedita harum repellat natus quae? Amet, pariatur cumque asperiores laboriosam inventore dicta facere perspiciatis debitis quos repellat blanditiis autem!</p>
     </div>
-<div>
+    <div class="column2">
+        <img src="../images/project_images/cross1.jpg" alt="Cross1" id="subimage">
+        <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga, sapiente assumenda laudantium voluptate quia aliquid, aperiam sed in vitae dolorem ipsum autem veniam aspernatur ducimus sit ne Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem beatae debitis voluptates odit iure pariatur perspiciatis? Corporis, doloremque sed ad, eius dignissimos quas unde molestiae id consequatur quo tempore nihil?</p>
+    </div>
+</div>
+
 
 <footer>
     <hr>
